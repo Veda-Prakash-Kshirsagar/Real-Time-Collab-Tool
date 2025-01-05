@@ -45,7 +45,9 @@ const Login = () => {
                 <button type="submit" className="btn btn-primary">Login</button>
             </form>
             {error && <p className="text-danger mt-3">{error}</p>} {/* Display error message */}
-            <p>Don't have an account? <a href="/register">Register</a></p>
+            <p>
+                <a href="/">Forget Password</a><br/>
+                Don't have an account? <a href="/register">Register</a></p>
         </div>
     );
 };
