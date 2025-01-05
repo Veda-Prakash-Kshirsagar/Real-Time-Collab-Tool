@@ -5,7 +5,7 @@ const LandingPage = () => {
     return (
         <div className="container text-center mt-5">
             <div className="jumbotron bg-light p-5">
-                <h1 className="display-4">Welcome to CollabTool</h1>
+                <h1 className="display-4">Welcome to <b>VCollab!</b></h1>
                 <p className="lead">
                     CollabTool is your go-to platform for seamless real-time collaboration. 
                     Work together on documents, share ideas, and communicate effortlessly with your team.
