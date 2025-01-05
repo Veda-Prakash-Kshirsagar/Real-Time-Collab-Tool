@@ -115,6 +115,7 @@ const DocumentDetails = () => {
 
             <div className="mt-3">
                 <button className="btn btn-primary" onClick={handleUpdate}>Update Document</button>
+                <button className="btn btn-primary ms-2" onClick={handleUpdate}>Upload</button>
                 <button className="btn btn-danger ms-2" onClick={handleDelete}>Delete Document</button>
             </div>
         </div>
